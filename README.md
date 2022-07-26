@@ -105,6 +105,8 @@ export LD_LIBRARY_PATH=.
 
 
 # Project Flowchart
+<div align="center">
+    
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/102697479/180912087-621585c5-9321-4ec1-97df-8c030e5c7bd9.png">
 
 # Authors
