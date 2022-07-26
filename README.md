@@ -42,6 +42,7 @@ Input plugins:
 * input_ptp2
 * input_raspicam  
 * input_uvc. 
+
 Output plugins:
 
 * output_file
