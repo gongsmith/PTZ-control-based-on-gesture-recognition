@@ -106,8 +106,9 @@ export LD_LIBRARY_PATH=.
 
 # Project Flowchart
 <div align="center">
-    
-<img width="355" alt="image" src="https://user-images.githubusercontent.com/102697479/180912087-621585c5-9321-4ec1-97df-8c030e5c7bd9.png">
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/102697479/180912359-be9028ed-c8bc-4f55-8c47-8f2cc92480d8.png">
+
 
 # Authors
 This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
