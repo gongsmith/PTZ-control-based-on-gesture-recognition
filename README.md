@@ -17,7 +17,14 @@ The Raspberry Pi controls the LED light on and off through the wiringPi library 
 **CSI camera:**  
 The Raspberry Pi comes with a CSI camera driver module. After the camera module is turned on in the system, the open source software mjpg-streamer can be used to broadcast the camera image on the LAN. The broadcast URL is IP address: 8080 (eg 192.168.137.163:8080). 
 # Software Development
-The gesture control gimbal part is programmed with the geany editor that comes with the Raspberry Pi, and the makefile compilation rules are written, and then compiled with the make compilation method. After compiling, the executable program can be started by directly inputting the command on the command line.
+The gesture control gimbal part is programmed with the geany editor that comes with the Raspberry Pi, and the makefile compilation rules are written, and then compiled with the make compilation method. After compiling, the executable program can be started by directly inputting the command on the command line.  
+The camera driver part uses the mjpg-streamer open source library, which can be downloaded and run directly.This is a fork of http://sourceforge.net/projects/mjpg-streamer/ with added support for the Raspberry Pi camera via the input_raspicam plugin.
+
+mjpg-streamer is a command line application that copies JPEG frames from one
+or more input plugins to multiple output plugins. It can be used to stream
+JPEG files over an IP-based network from a webcam to various types of viewers
+such as Chrome, Firefox, Cambozola, VLC, mplayer, and other software capable
+of receiving MJPG streams.
 
 Plugins
 -------
@@ -91,7 +98,7 @@ export LD_LIBRARY_PATH=.
 ```
 
 
-The camera driver part uses the mjpg-streamer open source library, which can be downloaded and run directly
+
 # Project Flowchart
 # Authors
 This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
