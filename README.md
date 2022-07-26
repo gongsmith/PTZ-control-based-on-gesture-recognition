@@ -1,6 +1,13 @@
 # PTZ-control-based-on-gesture-recognition
 # Introduction
 The movement of the two-axis gimbal can be controlled by making gestures on the gesture recognition module. The left and right hand wave corresponds to the left and right rotation angle adjustment of the gimbal, and the up and down wave corresponds to the up and down pitch angle adjustment of the gimbal. It is equipped with four LED lights to indicate that it is recognized. gesture direction. The PTZ is equipped with a camera that can display the picture in real time on the web page, which can be applied to the user's gesture control of the camera angle in the field of live broadcast or monitoring.
+# Project Flowchart
+<div align="center">
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/102697479/180912359-be9028ed-c8bc-4f55-8c47-8f2cc92480d8.png">
+    
+ </div>
+ 
 # Hardware Requirements
 **Raspberry Pi 4B**   
 ------------------
@@ -104,13 +111,7 @@ export LD_LIBRARY_PATH=.
 
 
 
-# Project Flowchart
-<div align="center">
 
-<img width="513" alt="image" src="https://user-images.githubusercontent.com/102697479/180912359-be9028ed-c8bc-4f55-8c47-8f2cc92480d8.png">
-    
- </div>
- 
 # Authors
 This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
 * [Xun Gong, 2696601G](https://github.com/gongsmith)  
