@@ -11,7 +11,7 @@ Built-in infrared LED and optical lens, which can realize gesture recognition in
 **PTZ:**   
 The gimbal can realize two degrees of freedom of left and right rotation and up and down pitch, which is controlled by the analog servo. The Raspberry Pi uses the wiringPi pin control library to control the pin output pwm signal, the frequency is 50Hz, of which 2.5% ~ 12.5% is occupied The ratio corresponds to the rotation of the steering gear -90° ~ 90°. The Raspberry Pi software is configured to rotate 10 degrees each time a valid signal is detected.    
 
-**LED: **  
+**LED:**    
 The Raspberry Pi controls the LED light on and off through the wiringPi library control pin output high and low level, 4 LED lights correspond to 4 different gestures.  
 
 **CSI camera:**  
