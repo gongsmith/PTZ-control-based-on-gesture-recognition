@@ -109,11 +109,7 @@ export LD_LIBRARY_PATH=.
 
 <img width="513" alt="image" src="https://user-images.githubusercontent.com/102697479/180912359-be9028ed-c8bc-4f55-8c47-8f2cc92480d8.png">
     
-# Authors
-This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
-* [Xun Gong, 2696601G](https://github.com/gongsmith)  
-* [Yuyang Wan, 2680327W](https://github.com/jkZoidberg)  
-* [Hanwei Liang, 2669523L](https://github.com/BrippoLiang)
+
 # Social Media
 Welcome to follow us!
 
