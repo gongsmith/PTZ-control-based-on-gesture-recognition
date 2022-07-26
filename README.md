@@ -38,19 +38,18 @@ Input plugins:
 
 * input_file
 * input_http
-* input_opencv ([documentation](mjpg-streamer-experimental/plugins/input_opencv/README.md))
+* input_opencv 
 * input_ptp2
-* input_raspicam ([documentation](mjpg-streamer-experimental/plugins/input_raspicam/README.md))
-* input_uvc ([documentation](mjpg-streamer-experimental/plugins/input_uvc/README.md))
-
+* input_raspicam  
+* input_uvc 
 Output plugins:
 
 * output_file
-* output_http ([documentation](mjpg-streamer-experimental/plugins/output_http/README.md))
+* output_http 
 * ~output_rtsp~ (not functional)
 * ~output_udp~ (not functional)
-* output_viewer ([documentation](mjpg-streamer-experimental/plugins/output_viewer/README.md))
-* output_zmqserver ([documentation](mjpg-streamer-experimental/plugins/output_zmqserver/README.md))
+* output_viewer 
+* output_zmqserver 
 
 Building & Installation
 ------------------
