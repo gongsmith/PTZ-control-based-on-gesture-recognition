@@ -9,7 +9,7 @@ PAJ7620U2 gesture recognition module:
 Built-in infrared LED and optical lens, which can realize gesture recognition in low light environment, the effective distance of recognition is 5CM~15CM, and supports recognition of 9 common gestures (up, down, left, right, front, back, clockwise, counterclockwise) , swing), connect with the Raspberry Pi through the IIC communication interface, the Raspberry Pi can initialize the module through the configuration of the register, and then read the recognition result from the specified register.    
 
 PTZ:  
-The gimbal can realize two degrees of freedom of left and right rotation and up and down pitch, which is controlled by the analog servo. The Raspberry Pi uses the wiringPi pin control library to control the pin output pwm signal, the frequency is 50Hz, of which 2.5%~12.5% is occupied The ratio corresponds to the rotation of the steering gear -90°~90°. The Raspberry Pi software is configured to rotate 10 degrees each time a valid signal is detected.    
+The gimbal can realize two degrees of freedom of left and right rotation and up and down pitch, which is controlled by the analog servo. The Raspberry Pi uses the wiringPi pin control library to control the pin output pwm signal, the frequency is 50Hz, of which 2.5% ~ 12.5% is occupied The ratio corresponds to the rotation of the steering gear -90° ~ 90°. The Raspberry Pi software is configured to rotate 10 degrees each time a valid signal is detected.    
 
 LED:  
 The Raspberry Pi controls the LED light on and off through the wiringPi library control pin output high and low level, 4 LED lights correspond to 4 different gestures.  
