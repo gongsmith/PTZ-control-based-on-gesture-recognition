@@ -19,6 +19,78 @@ The Raspberry Pi comes with a CSI camera driver module. After the camera module 
 # Software Development
 The gesture control gimbal part is programmed with the geany editor that comes with the Raspberry Pi, and the makefile compilation rules are written, and then compiled with the make compilation method. After compiling, the executable program can be started by directly inputting the command on the command line.
 
+lugins
+-------
+
+Input plugins:
+
+* input_file
+* input_http
+* input_opencv ([documentation](mjpg-streamer-experimental/plugins/input_opencv/README.md))
+* input_ptp2
+* input_raspicam ([documentation](mjpg-streamer-experimental/plugins/input_raspicam/README.md))
+* input_uvc ([documentation](mjpg-streamer-experimental/plugins/input_uvc/README.md))
+
+Output plugins:
+
+* output_file
+* output_http ([documentation](mjpg-streamer-experimental/plugins/output_http/README.md))
+* ~output_rtsp~ (not functional)
+* ~output_udp~ (not functional)
+* output_viewer ([documentation](mjpg-streamer-experimental/plugins/output_viewer/README.md))
+* output_zmqserver ([documentation](mjpg-streamer-experimental/plugins/output_zmqserver/README.md))
+
+Building & Installation
+=======================
+
+we must have cmake installed. I used libjpeg8-dev. e.g.
+
+    sudo apt-get install cmake libjpeg8-dev
+
+You may need to install gcc (and g++ for the opencv plugin) too
+
+    sudo apt-get install gcc g++
+
+Simple compilation
+------------------
+
+This will build and install all plugins that can be compiled.
+
+    cd mjpg-streamer-experimental
+    make
+    sudo make install
+    
+By default, everything will be compiled in "release" mode. If you wish to compile
+with debugging symbols enabled, you can do this:
+
+    cd mjpg-streamer-experimental
+    make distclean
+    make CMAKE_BUILD_TYPE=Debug
+    sudo make install
+    
+Advanced compilation (via CMake)
+--------------------------------
+
+There are options available to enable/disable plugins, setup options, etc. This
+shows the basic steps to enable the experimental HTTP management feature:
+
+    cd mjpg-streamer-experimental
+    mkdir _build
+    cd _build
+    cmake -DENABLE_HTTP_MANAGEMENT=ON ..
+    make
+    sudo make install
+
+Usage
+=====
+From the mjpeg streamer experimental
+folder:
+```
+export LD_LIBRARY_PATH=.
+./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+```
+
+
 The camera driver part uses the mjpg-streamer open source library, which can be downloaded and run directly
 # Project Flowchart
 # Authors
