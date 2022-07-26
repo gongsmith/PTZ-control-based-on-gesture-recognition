@@ -41,7 +41,7 @@ Output plugins:
 * output_zmqserver ([documentation](mjpg-streamer-experimental/plugins/output_zmqserver/README.md))
 
 Building & Installation
-=======================
+------------------
 
 we must have cmake installed. I used libjpeg8-dev. e.g.
 
@@ -82,7 +82,7 @@ shows the basic steps to enable the experimental HTTP management feature:
     sudo make install
 
 Usage
-=====
+------------------
 From the mjpeg streamer experimental
 folder:
 ```
