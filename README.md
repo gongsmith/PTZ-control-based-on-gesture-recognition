@@ -5,5 +5,5 @@
 # Project Flowchart
 # Social Media
 # Authors
-Xun Gong (2696601G)
+Xun Gong (2696601G). 
 Hanwei Liang ()
