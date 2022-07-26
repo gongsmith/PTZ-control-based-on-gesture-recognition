@@ -41,7 +41,7 @@ Input plugins:
 * input_opencv 
 * input_ptp2
 * input_raspicam  
-* input_uvc   
+* input_uvc. 
 Output plugins:
 
 * output_file
