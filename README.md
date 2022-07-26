@@ -5,5 +5,5 @@
 # Project Flowchart
 # Social Media
 # Authors
-Xun Gong (2696601G)       
+[Xun Gong (2696601G)](https://github.com/gongsmith)       
   Hanwei Liang()
