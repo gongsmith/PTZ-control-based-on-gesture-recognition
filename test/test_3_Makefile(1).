@@ -1,5 +1,0 @@
-PAJ7620U2:PAJ7620U2.cpp PAJ7620U2.h gesture_detect.h
-	g++ -Wall PAJ7620U2.cpp -o PAJ7620U2 -lwiringPi -lpthread -lm `pkg-config --cflags --libs opencv`
-clean:
-	rm PAJ7620U2
-
