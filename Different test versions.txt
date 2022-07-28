@@ -1,0 +1,7 @@
+test1.   Complete with camera display, gesture recognition control function.
+
+test2.   Modified to C++ object-oriented programming and threaded control instead of main loop polling.
+
+test3.   Integrated opencv library to read camera images, no longer using mjpg-streamer library
+
+Final version.   Change the project name and tidy up the code
