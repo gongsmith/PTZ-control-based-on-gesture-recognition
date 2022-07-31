@@ -1,5 +1,0 @@
-[submodule "tempCode/InferenceHelper"]
-	path = tempCode/InferenceHelper
-[submodule "InferenceHelper"]
-	path = InferenceHelper
-	url = https://https://github.com/opencv/opencv
