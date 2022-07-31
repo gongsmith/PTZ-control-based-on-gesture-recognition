@@ -290,3 +290,17 @@ Three classes are set to encapsulate all functions, corresponding to gesture rec
    * Actuator control thread: control and modify the actuator PWM duty cycle in real time according to the gesture recognition results
 
    * Camera thread: initialize the camera object to read the data stream and display the image in the window in real time
+ 
+# Authors
+This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
+* [Xun Gong, 2696601G](https://github.com/gongsmith)   
+* [Hanwei Liang, 2669523L](https://github.com/BrippoLiang)
+# Social Media
+Welcome to follow us!
+
+<div align="center">
+
+[<img src="https://user-images.githubusercontent.com/102697479/163846803-5ffc0828-5dfa-442f-956b-b11ea940175b.png" width="200" height="100" alt="youtube"/><br/>](https://youtu.be/ROjjHk1d5WQ)[<img src="https://user-images.githubusercontent.com/102697479/163991599-a21b2f16-51bd-4a6e-9639-141a1ae0b943.png" width="200" height="100" alt="Twitter"/><br/>](https://twitter.com/ThanhPhngLc1/status/1516405360973828099)
+
+
+ </div>
