@@ -1,3 +1,6 @@
+# PTZ-control-based-on-gesture-recognition
+![0fd1788615d1b8d2062f0da62b8785c](https://user-images.githubusercontent.com/93221038/182014852-75d2c85f-aed1-49de-be07-14901c2e3ea7.jpg)
+
 # gesture_ detect
 
 
