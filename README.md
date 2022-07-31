@@ -305,7 +305,6 @@ Welcome to follow us!
 
 [<img src="https://user-images.githubusercontent.com/102697479/163846803-5ffc0828-5dfa-442f-956b-b11ea940175b.png" width="200" height="100" alt="youtube"/><br/>](https://youtu.be/ROjjHk1d5WQ)[<img src="https://user-images.githubusercontent.com/102697479/163991599-a21b2f16-51bd-4a6e-9639-141a1ae0b943.png" width="200" height="100" alt="Twitter"/><br/>](https://twitter.com/Vanessa30233257/status/1553643808793010176)
    [<img src="https://user-images.githubusercontent.com/102697479/182031510-e8c38a11-fe77-4585-84b9-95cfa0bb2e1f.png" width="200" height="100" alt="instgram"/><br/>](https://www.instagram.com/p/CgrM4V6llw4/)
-![image](https://user-images.githubusercontent.com/102697479/182031600-ab5be095-d251-4f6f-9d56-344757b6f44f.png)
 
 
  </div>
